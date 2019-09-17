@@ -1,20 +1,20 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#"
      xml:base="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:untitled-ontology-3="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3">
-        <dc:rights>http://creativecommons.org/licenses/by/3.0/</dc:rights>
-        <dc:creator>Rodrigo Gusmão</dc:creator>
         <dc:creator>Arthur Gomes</dc:creator>
+        <dc:creator>Rodrigo Gusmão</dc:creator>
         <dc:description>Distributed Knowledge Development Ontology - DKDOnto</dc:description>
-        <dc:title>DKDOnto</dc:title>
         <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI"></dc:publisher>
+        <dc:rights>http://creativecommons.org/licenses/by/3.0/</dc:rights>
+        <dc:title>DKDOnto</dc:title>
     </owl:Ontology>
     
 
@@ -1147,19 +1147,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:complementOf>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent"/>
-                            <rdf:Description rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate"/>
-                            <rdf:Description rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region"/>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:complementOf>
-            </owl:Class>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="pt">Define em que cidade o individuo se encontra</rdfs:comment>
         <rdfs:label xml:lang="en">City</rdfs:label>
     </owl:Class>
@@ -1199,11 +1186,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:complementOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country"/>
-            </owl:Class>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="pt">Define em que continente o individuo se encontra</rdfs:comment>
         <rdfs:label xml:lang="en">Continent</rdfs:label>
     </owl:Class>
@@ -1214,11 +1196,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:complementOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent"/>
-            </owl:Class>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="pt">Define em que país o individuo se encontra</rdfs:comment>
         <rdfs:label xml:lang="en">Country</rdfs:label>
     </owl:Class>
@@ -1295,11 +1272,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:complementOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"/>
-            </owl:Class>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="pt">Define em que estado o individuo se encontra</rdfs:comment>
         <rdfs:label xml:lang="en">Estate</rdfs:label>
     </owl:Class>
@@ -1503,11 +1475,6 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Place"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:complementOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#District"/>
-            </owl:Class>
-        </rdfs:subClassOf>
         <rdfs:comment xml:lang="pt">Define em que região o individuo se encontra</rdfs:comment>
         <rdfs:label xml:lang="en">Region</rdfs:label>
     </owl:Class>
@@ -2759,7 +2726,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York_C">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"/>
-        <HasEstate rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York"/>
+        <IsCityOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York"/>
     </owl:NamedIndividual>
     
 
@@ -3406,9 +3373,32 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#arthurkbe@gmail.com">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#District"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Timezone"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
 
