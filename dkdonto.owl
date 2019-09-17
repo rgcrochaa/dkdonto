@@ -2066,12 +2066,12 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Danillo_Bion">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
-        <HasCity rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Recife"/>
         <HasLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"/>
         <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Garanhuns"/>
+        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Recife"/>
     </owl:NamedIndividual>
     
 
