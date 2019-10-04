@@ -219,9 +219,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email_Of -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EmailOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email_Of">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#EmailOf">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasEmail"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Email"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
@@ -429,7 +429,7 @@
     <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasRegion -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasRegion">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region_Of"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RegionOf"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region"/>
         <rdfs:comment xml:lang="pt">Tem região</rdfs:comment>
@@ -462,7 +462,7 @@
     <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSchedule -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasSchedule">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule_Of"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ScheduleOf"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
@@ -527,7 +527,7 @@
     <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTimeZone -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#HasTimeZone">
-        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#&apos;Time_Zone_Of&apos;"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#&apos;TimeZoneOf&apos;"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Timezone"/>
         <rdfs:comment xml:lang="pt">tem fuso horario</rdfs:comment>
@@ -689,9 +689,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region_Of -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RegionOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region_Of">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RegionOf">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Region"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country"/>
         <rdfs:comment>Região de</rdfs:comment>
@@ -742,9 +742,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule_Of -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ScheduleOf -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule_Of">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ScheduleOf">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule"/>
         <rdfs:range>
             <owl:Class>
@@ -990,9 +990,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#&apos;Time_Zone_Of&apos; -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#&apos;TimeZoneOf&apos; -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#&apos;Time_Zone_Of&apos;">
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#&apos;TimeZoneOf&apos;">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Timezone"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"/>
         <rdfs:comment>Fuso horário de</rdfs:comment>
@@ -1017,8 +1017,8 @@
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DateTime">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Schedule"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <rdfs:comment>Date time</rdfs:comment>
-        <rdfs:label> Date time</rdfs:label>
+        <rdfs:comment xml:lang="pt">Propriedade que representa data e hora</rdfs:comment>
+        <rdfs:label>Date time</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -1110,7 +1110,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AsynchronousCommunication">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Comunication"/>
-        <rdfs:comment xml:lang="pt">Asynchronous_Communication definem os tipos de comunicação que o contato entre o locutor e o ouvinte é feito em tempos distintos</rdfs:comment>
+        <rdfs:comment xml:lang="pt">AsynchronousCommunication definem os tipos de comunicação que o contato entre o locutor e o ouvinte é feito em tempos distintos</rdfs:comment>
         <rdfs:label xml:lang="en">Asynchronous Communication</rdfs:label>
     </owl:Class>
     
@@ -1531,7 +1531,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SynchronousCommunication">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Comunication"/>
-        <rdfs:comment xml:lang="pt">Synchronous_Communication definem os tipos de comunicação que o contato entre o locutor e o ouvinte é feito simultaneamente</rdfs:comment>
+        <rdfs:comment xml:lang="pt">SynchronousCommunication definem os tipos de comunicação que o contato entre o locutor e o ouvinte é feito simultaneamente</rdfs:comment>
         <rdfs:label xml:lang="en">Synchronous Communication</rdfs:label>
     </owl:Class>
     
@@ -1707,31 +1707,31 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Analista_de_Testes_Certificado -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AnalistadeTestesCertificado -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Analista_de_Testes_Certificado">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AnalistadeTestesCertificado">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Android_Development -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AndroidDevelopment -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Android_Development">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AndroidDevelopment">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ArthurAlexandre -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ArthurAlexandre">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
         <HasCharacteristics rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CC0001"/>
         <HasCharacteristics rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PC0001"/>
         <HasEmail rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#arthurkbe@gmail.com"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Android_Development"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Backend_Development"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AndroidDevelopment"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BackendDevelopment"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPProgramming"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PostgreSQL"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment"/>
@@ -1893,9 +1893,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Backend_Development -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BackendDevelopment -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Backend_Development">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BackendDevelopment">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
@@ -1905,7 +1905,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Brazil">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country"/>
-        <HasContinent rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#South_America"/>
+        <HasContinent rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SouthAmerica"/>
         <HasRegion rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Midwest"/>
         <HasRegion rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#North"/>
         <HasRegion rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Northeast"/>
@@ -1915,13 +1915,13 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Bruce_Straight -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BruceStraight -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Bruce_Straight">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BruceStraight">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
         <HasEmail rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#bruce.straight--gmail.com"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Confused"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Database_Administrator"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DatabaseAdministrator"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCA"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCE"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Oracle-OCM"/>
@@ -1943,52 +1943,52 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CProgramming -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CProgramming">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Sharp-Programming -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CSharpProgramming -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Sharp-Programming">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CSharpProgramming">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Campina_Grande -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CampinaGrande -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Campina_Grande">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CampinaGrande">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"/>
         <IsCityOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Paraiba"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Case_Study -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CaseStudy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Case_Study">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CaseStudy">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectPhase"/>
-        <HasProcessPhase rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Talk_Customer"/>
-        <HasProjectActivity rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Requirements_Gathering"/>
+        <HasProcessPhase rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TalkCustomer"/>
+        <HasProjectActivity rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RequirementsGathering"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Certified_Professional_for_Requirements_Engineering -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CertifiedProfessionalforRequirementsEngineering -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Certified_Professional_for_Requirements_Engineering">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CertifiedProfessionalforRequirementsEngineering">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Chief_Technical_Officer -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ChiefTechnicalOfficer -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Chief_Technical_Officer">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ChiefTechnicalOfficer">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill"/>
     </owl:NamedIndividual>
     
@@ -1998,7 +1998,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CitixMobile">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"/>
-        <HasProjectPhase rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Case_Study"/>
+        <HasProjectPhase rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CaseStudy"/>
         <HasTeam rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamRodrigo"/>
         <UseMethodology rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Scrum"/>
         <UseResource rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#eclipse"/>
@@ -2014,12 +2014,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Arcoverde -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanielArcoverde -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Arcoverde">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanielArcoverde">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CProgramming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming"/>
         <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Recife"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"/>
@@ -2027,28 +2027,28 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Figueredo -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanielFigueredo -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Figueredo">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanielFigueredo">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHP_Tester"/>
-        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Joao"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPTester"/>
+        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SaoJoao"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_T._Pragg -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanielT.Pragg -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_T._Pragg">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanielT.Pragg">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
         <HasEmail rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#daniel.pragg--gmail.com"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Programmer"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExpertProgrammer"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JQuery"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSF"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSP"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lead_Developer"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#LeadDeveloper"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Linux"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MySQL"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PostgreSQL"/>
@@ -2056,19 +2056,19 @@
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Struts"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment"/>
-        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo_C"/>
+        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SaoPauloC"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Danillo_Bion -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanilloBion -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Danillo_Bion">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanilloBion">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
         <HasLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CProgramming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"/>
         <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Garanhuns"/>
         <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Recife"/>
@@ -2076,9 +2076,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Database_Administrator -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DatabaseAdministrator -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Database_Administrator">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DatabaseAdministrator">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill"/>
     </owl:NamedIndividual>
     
@@ -2216,25 +2216,25 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Excelent_Oratory -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExcelentOratory -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Excelent_Oratory">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExcelentOratory">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalSkill"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Programmer -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExpertProgrammer -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Programmer">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExpertProgrammer">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Project_Manager -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExpertProjectManager -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Project_Manager">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExpertProjectManager">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill"/>
     </owl:NamedIndividual>
     
@@ -2257,12 +2257,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Funeral_plan -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Funeralplan -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Funeral_plan">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Funeralplan">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"/>
-        <HasProjectPhase rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Case_Study"/>
-        <HasTeam rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Funeral_Plan"/>
+        <HasProjectPhase rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CaseStudy"/>
+        <HasTeam rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamFuneralPlan"/>
         <UseMethodology rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Scrum"/>
     </owl:NamedIndividual>
     
@@ -2285,11 +2285,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Gas_Station_Self_Service -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#GasStationSelfService -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Gas_Station_Self_Service">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#GasStationSelfService">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"/>
-        <HasTeam rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Gas"/>
+        <HasTeam rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamGas"/>
         <UseMethodology rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#XP"/>
     </owl:NamedIndividual>
     
@@ -2303,9 +2303,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Good_Looking -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#GoodLooking -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Good_Looking">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#GoodLooking">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PersonalSkill"/>
     </owl:NamedIndividual>
     
@@ -2327,14 +2327,14 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Isabelle_Azevedo -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsabelleAzevedo -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Isabelle_Azevedo">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsabelleAzevedo">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Backend_Development"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Excelent_Oratory"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Good_Looking"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BackendDevelopment"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExcelentOratory"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#GoodLooking"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPProgramming"/>
         <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Garanhuns"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"/>
@@ -2375,120 +2375,120 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Jack_Villa -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JackVilla -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Jack_Villa">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JackVilla">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
         <HasEmail rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#jack.villa--hotmail.com"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Sharp-Programming"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Certified_Professional_for_Requirements_Engineering"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Programmer"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CSharpProgramming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CertifiedProfessionalforRequirementsEngineering"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExpertProgrammer"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Hibernate"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJD"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJD"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJP"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment"/>
-        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York_C"/>
+        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NewYorkC"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Spanish"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCBCD -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCBCD">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCDJWS -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCBCD -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCDJWS">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCBCD">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCEA -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCDJWS -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCEA">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCDJWS">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJA -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCEA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJA">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCEA">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJD -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJD">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJA">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJD -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJD">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCWD -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJP -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCWD">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJP">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SMAD -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCWD -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SMAD">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCWD">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSMAD -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSMAD">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Jeff_A._Donate -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JeffA.Donate -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Jeff_A._Donate">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JeffA.Donate">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
         <HasEmail rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#jeff.donate--msn.com"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CProgramming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Linux"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Mobile_Development"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MobileDevelopment"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"/>
-        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo_C"/>
+        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SaoPauloC"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Spanish"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Joao_Pessoa -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JoaoPessoa -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Joao_Pessoa">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JoaoPessoa">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"/>
         <IsCityOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Paraiba"/>
     </owl:NamedIndividual>
@@ -2504,17 +2504,17 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lead_Developer -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#LeadDeveloper -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lead_Developer">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#LeadDeveloper">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lift_Points -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#LiftPoints -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lift_Points">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#LiftPoints">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessActivity"/>
         <HasRole rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Role01"/>
         <HasSchedule rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SC001"/>
@@ -2541,21 +2541,21 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Marcos_Duarte -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MarcosDuarte -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Marcos_Duarte">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MarcosDuarte">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Excelent_Oratory"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Programmer"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Mobile_Development"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExcelentOratory"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExpertProgrammer"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJP"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MobileDevelopment"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Struts"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Technical_Leader"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TechnicalLeader"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment"/>
-        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Campina_Grande"/>
+        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CampinaGrande"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"/>
     </owl:NamedIndividual>
     
@@ -2569,9 +2569,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Mobile_Development -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MobileDevelopment -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Mobile_Development">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MobileDevelopment">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
@@ -2713,20 +2713,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NewYork -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NewYork">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate"/>
         <IsInARegion rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Northeast"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York_C -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NewYorkC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York_C">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NewYorkC">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"/>
-        <IsCityOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York"/>
+        <IsCityOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NewYork"/>
     </owl:NamedIndividual>
     
 
@@ -2739,9 +2739,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#North_America -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NorthAmerica -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#North_America">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NorthAmerica">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent"/>
     </owl:NamedIndividual>
     
@@ -2795,9 +2795,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Order_of_Service -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#OrderofService -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Order_of_Service">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#OrderofService">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"/>
         <HasTeam rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamOS"/>
         <UseMethodology rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#XP"/>
@@ -2831,9 +2831,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHP_Tester -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPTester -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHP_Tester">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPTester">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserKnowledge"/>
     </owl:NamedIndividual>
     
@@ -2859,11 +2859,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Pizza_Delivery -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PizzaDelivery -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Pizza_Delivery">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PizzaDelivery">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"/>
-        <HasTeam rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Pizza_Delivery"/>
+        <HasTeam rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamPizzaDelivery"/>
         <UseMethodology rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Scrum"/>
         <UseResource rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#eclipse"/>
     </owl:NamedIndividual>
@@ -2894,22 +2894,22 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project_Manager -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectManager -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project_Manager">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectManager">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rebecka_Rodrigues -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RebeckaRodrigues -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rebecka_Rodrigues">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RebeckaRodrigues">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Analista_de_Testes_Certificado"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Certified_Professional_for_Requirements_Engineering"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Good_Looking"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#AnalistadeTestesCertificado"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CertifiedProfessionalforRequirementsEngineering"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#GoodLooking"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQA"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"/>
         <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Recife"/>
@@ -2927,38 +2927,38 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Requirements_Gathering -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RequirementsGathering -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Requirements_Gathering">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RequirementsGathering">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProjectActivity"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rio_de_Janeiro -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RiodeJaneiro -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rio_de_Janeiro">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RiodeJaneiro">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate"/>
         <IsInARegion rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Southeast"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rodrigo_Rocha -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RodrigoRocha -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rodrigo_Rocha">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RodrigoRocha">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
         <HasCharacteristics rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CC0001"/>
         <HasCharacteristics rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PC0002"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Backend_Development"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#BackendDevelopment"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JQuery"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSP"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lead_Developer"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#LeadDeveloper"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#PHPProgramming"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#WebDevelopment"/>
-        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Joao_Pessoa"/>
+        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JoaoPessoa"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Portuguese"/>
     </owl:NamedIndividual>
     
@@ -3006,18 +3006,18 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Joao -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SaoJoao -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Joao">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SaoJoao">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"/>
         <IsCityOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Pernambuco"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SaoPaulo -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SaoPaulo">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate"/>
         <IsEstateOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Brazil"/>
         <IsInARegion rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Southeast"/>
@@ -3025,11 +3025,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo_C -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SaoPauloC -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo_C">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SaoPauloC">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"/>
-        <IsCityOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Sao_Paulo"/>
+        <IsCityOf rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SaoPaulo"/>
     </owl:NamedIndividual>
     
 
@@ -3042,11 +3042,11 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Smart_Seller -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SmartSeller -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Smart_Seller">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SmartSeller">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"/>
-        <HasTeam rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Smart_Seller"/>
+        <HasTeam rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamSmartSeller"/>
         <UseMethodology rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#XP"/>
     </owl:NamedIndividual>
     
@@ -3060,9 +3060,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#South_America -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SouthAmerica -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#South_America">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SouthAmerica">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Continent"/>
     </owl:NamedIndividual>
     
@@ -3116,11 +3116,33 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Talk_Customer -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TalkCustomer -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Talk_Customer">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TalkCustomer">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ProcessPhase"/>
-        <HasProcessActivity rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lift_Points"/>
+        <HasProcessActivity rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#LiftPoints"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamFuneralPlan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamFuneralPlan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ArthurAlexandre"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanielFigueredo"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsabelleAzevedo"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TullyoAraujo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamGas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamGas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ArthurAlexandre"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsabelleAzevedo"/>
     </owl:NamedIndividual>
     
 
@@ -3129,7 +3151,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamOS">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ArthurAlexandre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamPizzaDelivery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamPizzaDelivery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanilloBion"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RodrigoRocha"/>
     </owl:NamedIndividual>
     
 
@@ -3138,85 +3170,53 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamRodrigo">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Arcoverde"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_T._Pragg"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rebecka_Rodrigues"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rodrigo_Rocha"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanielArcoverde"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanielT.Pragg"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RebeckaRodrigues"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RodrigoRocha"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Funeral_Plan -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamSmartSeller -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Funeral_Plan">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamSmartSeller">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Figueredo"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Isabelle_Azevedo"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tullyo_Araujo"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ArthurAlexandre"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Gas -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TechnicalLeader -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Gas">
-        <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Isabelle_Azevedo"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Pizza_Delivery -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Pizza_Delivery">
-        <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Danillo_Bion"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rodrigo_Rocha"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Smart_Seller -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team_Smart_Seller">
-        <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Arthur_Alexandre"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Technical_Leader -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Technical_Leader">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TechnicalLeader">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#UserSkill"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Thomas_Taylor -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ThomasTaylor -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Thomas_Taylor">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ThomasTaylor">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
         <HasEmail rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#thomas.taylor--hotmail.com"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Hibernate"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JQuery"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSF"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JSP"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCBCD"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCDJWS"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCEA"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJA"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJD"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCWD"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Lead_Developer"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCBCD"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCDJWS"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCEA"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJA"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJD"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJP"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCWD"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#LeadDeveloper"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQL"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#SQLServer"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Struts"/>
-        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York_C"/>
+        <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NewYorkC"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"/>
     </owl:NamedIndividual>
     
@@ -3226,17 +3226,17 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TimeUnico">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Team"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Daniel_Arcoverde"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Marcos_Duarte"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rebecka_Rodrigues"/>
-        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Rodrigo_Rocha"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#DanielArcoverde"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#MarcosDuarte"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RebeckaRodrigues"/>
+        <HasMember rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#RodrigoRocha"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tullyo_Araujo -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TullyoAraujo -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Tullyo_Araujo">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TullyoAraujo">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
         <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Confused"/>
         <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Garanhuns"/>
@@ -3248,8 +3248,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#USA">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country"/>
-        <HasContinent rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#North_America"/>
-        <HasEstate rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#New_York"/>
+        <HasContinent rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NorthAmerica"/>
+        <HasEstate rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#NewYork"/>
     </owl:NamedIndividual>
     
 
@@ -3262,15 +3262,15 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Vince_S._Brest -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#VinceS.Brest -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Vince_S._Brest">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#VinceS.Brest">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Member"/>
         <HasEmail rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#vince.brest--gmail.com"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#C_Programming"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Expert_Project_Manager"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java-SCJP"/>
-        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Java_Programming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#CProgramming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#ExpertProjectManager"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaProgramming"/>
+        <HasSkills rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#JavaSCJP"/>
         <IsInAPlace rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Manhattan"/>
         <SpeakLanguage rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#English"/>
     </owl:NamedIndividual>
