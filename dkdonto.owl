@@ -2795,9 +2795,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#OrderofService -->
+    <!-- http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#OrderOfService -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#OrderofService">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#OrderOfService">
         <rdf:type rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Project"/>
         <HasTeam rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#TeamOS"/>
         <UseMethodology rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#XP"/>
