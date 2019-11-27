@@ -580,6 +580,9 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsCityOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate"/>
+        <rdfs:comment xml:lang="pt">é uma cidade do(a)</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is City Of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -589,6 +592,9 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#IsEstateOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Estate"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/rgcr/ontologies/2015/0/untitled-ontology-3#Country"/>
+        <rdfs:comment xml:lang="pt">é um estado do(a)</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is Estate Of</rdfs:label>
     </owl:ObjectProperty>
     
